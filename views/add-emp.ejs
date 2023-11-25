@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            margin: 30px;
+            background-color:chocolate;
+            color:white;
+            font-size: large;
+            align-content: center;
+        }
+        button{
+            background-color: chartreuse;
+            font-size: medium;
+            color: black;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="/addemp" method="post">
+        <!-- Employee id,name,age and salary -->
+        Employee ID: <input type="text" name="empid" id="empid" placeholder="Enter ID"><br><br>
+        Employee Name: <input type="text" name="empn" id="empn" placeholder="Enter Name"><br><br>
+        Employee Age: <input type="text" name="empage" id="empage" placeholder="Enter Age"><br><br>
+        Employee Salary: <input type="text" name="empsal" id="empsal" placeholder="Enter Salary"><br><br>
+        <button type="submit" name="btn" id="btn" value="btn">Add Employee</button>
+    </form>
+</body>
+</html>
